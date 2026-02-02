@@ -1,8 +1,4 @@
-/*
- Build a linked list using the `struct node` defined in `node.h`.
- Insert nodes from program arguments, print all node values, then free the list.
- Usage: ./main-exercise 5 8 11 2 7
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
