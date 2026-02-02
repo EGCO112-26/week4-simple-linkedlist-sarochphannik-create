@@ -43,7 +43,6 @@ int main(int argc, char *argv[]) {
         i += (name ? 2 : 1);
     }
 
-    printf("List contents:\n");
     tmp = head;
     while (tmp) {
         printf("%d %s\n", tmp->id, tmp->name);
@@ -53,7 +52,6 @@ int main(int argc, char *argv[]) {
     tmp = head;
     while (tmp) {
         head = head->next;
-        printf("Freeing %d %s\n", tmp->id, tmp->name);
         free(tmp);
         tmp = head;
     }
