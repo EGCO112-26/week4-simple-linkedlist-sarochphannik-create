@@ -92,8 +92,7 @@ int main(int argc, const char * argv[]) {
      */
 
           
-     */
-        NodePtr temp;
+          NodePtr temp;
         head= (NodePtr) malloc(sizeof(struct node));
         temp=head;
         
